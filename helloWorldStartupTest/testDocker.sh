@@ -1,0 +1,1 @@
+hyperfine --prepare "sh testScripts/cleanupDocker.sh" --cleanup "sh testScripts/cleanupDocker.sh" "sh testScripts/testHelloStartupDocker.sh" --runs 10
